@@ -1,0 +1,22 @@
+/*  Body para todas las paginas  */ 
+
+.titleMovement {
+    animation-name: title;
+    animation-iteration-count: 1;
+    animation-duration: 4s;
+}
+@keyframes title {
+    from {
+        transform: translate(-1000px);
+    }
+    to {
+        transform: translate(0.5fr);
+    }
+}
+
+.imgHover:hover {
+    opacity: 0.5;
+    transform: scale(1.2);
+}
+
+

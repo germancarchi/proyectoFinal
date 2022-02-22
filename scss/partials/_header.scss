@@ -1,0 +1,38 @@
+/* Header para todas las paginas */
+
+header {
+    a {
+        img {
+            border-radius: 2px;
+        }               
+    }
+    .active1 {
+        background-color: lightgreen;
+        color: white;
+        margin-right: 1rem;
+        margin-left: 1rem;
+        border-radius: 10px;
+    }
+
+    .navbar-toggler {
+        border-color: black;
+        border-width: 2px;
+        padding: 3px;
+    }
+    button {
+        p {
+            width: 35px;
+            height: 5px;
+            background-color: black;
+            margin: 3px 1px;
+        }
+    }
+    li {
+            a{
+                &:hover {
+                    color: brown;
+                    font-style: italic;
+                }
+            }
+    }       
+}

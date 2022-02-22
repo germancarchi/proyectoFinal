@@ -1,0 +1,18 @@
+/* Maps */
+
+$buttons: (
+    1: rgb(37, 37, 194),
+    2: rgb(31, 153, 31),
+    3: rgb(172, 127, 44),
+    4: red,
+    5: gray,
+    6: black,
+    7: rgb(221, 221, 40),
+    8: rgb(179, 32, 179),
+);
+
+@each $blog,$color in $buttons {
+    .blog-#{$blog} {
+        color: $color;
+    }   
+}

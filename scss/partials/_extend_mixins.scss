@@ -1,0 +1,34 @@
+/*  Extends  */
+
+body {
+    div {
+        h3 {
+            @extend .bodyServ;
+            color: white;
+            font-size: large;   
+        }
+    }
+}
+
+/*   Mixins  */
+
+@mixin sizeImg ($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+}
+
+.sizeImg1 {
+    @include sizeImg(140px,140px )
+}
+
+.sizeImg2 {
+    @include sizeImg(70%,10% )
+}
+
+.sizeImg3 {
+    @include sizeImg(70%,80% )
+}
+
+.sizeImg4 {
+    @include sizeImg(50%,50% )
+}

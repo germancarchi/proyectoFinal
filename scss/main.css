@@ -1,0 +1,211 @@
+/* Header para todas las paginas */
+header a img {
+  border-radius: 2px;
+}
+
+header .active1 {
+  background-color: lightgreen;
+  color: white;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  border-radius: 10px;
+}
+
+header .navbar-toggler {
+  border-color: black;
+  border-width: 2px;
+  padding: 3px;
+}
+
+header button p {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 3px 1px;
+}
+
+header li a:hover {
+  color: brown;
+  font-style: italic;
+}
+
+/*  Body para todas las paginas  */
+.titleMovement {
+  -webkit-animation-name: title;
+          animation-name: title;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+@-webkit-keyframes title {
+  from {
+    -webkit-transform: translate(-1000px);
+            transform: translate(-1000px);
+  }
+  to {
+    -webkit-transform: translate(0.5fr);
+            transform: translate(0.5fr);
+  }
+}
+
+@keyframes title {
+  from {
+    -webkit-transform: translate(-1000px);
+            transform: translate(-1000px);
+  }
+  to {
+    -webkit-transform: translate(0.5fr);
+            transform: translate(0.5fr);
+  }
+}
+
+.imgHover:hover {
+  opacity: 0.5;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+/*  Body solo para la pagina de servicios   */
+.title1Movement {
+  -webkit-animation-name: title1;
+          animation-name: title1;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+@-webkit-keyframes title1 {
+  from {
+    -webkit-transform: translate(1000px);
+            transform: translate(1000px);
+  }
+  to {
+    -webkit-transform: translate(0.1fr);
+            transform: translate(0.1fr);
+  }
+}
+
+@keyframes title1 {
+  from {
+    -webkit-transform: translate(1000px);
+            transform: translate(1000px);
+  }
+  to {
+    -webkit-transform: translate(0.1fr);
+            transform: translate(0.1fr);
+  }
+}
+
+.title2Movement {
+  -webkit-animation-name: title2;
+          animation-name: title2;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+@-webkit-keyframes title2 {
+  from {
+    -webkit-transform: translate(-700px);
+            transform: translate(-700px);
+  }
+  to {
+    -webkit-transform: translate(1fr);
+            transform: translate(1fr);
+  }
+}
+
+@keyframes title2 {
+  from {
+    -webkit-transform: translate(-700px);
+            transform: translate(-700px);
+  }
+  to {
+    -webkit-transform: translate(1fr);
+            transform: translate(1fr);
+  }
+}
+
+.body1 img {
+  border-radius: 15px;
+}
+
+.body1 div section {
+  background-color: #eceaea;
+  border-radius: 15px;
+}
+
+.bodyServ, body div h3 {
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+  text-align: center;
+  padding-top: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+/*  Extends  */
+body div h3 {
+  color: white;
+  font-size: large;
+}
+
+/*   Mixins  */
+.sizeImg1 {
+  width: 140px;
+  height: 140px;
+}
+
+.sizeImg2 {
+  width: 70%;
+  height: 10%;
+}
+
+.sizeImg3 {
+  width: 70%;
+  height: 80%;
+}
+
+.sizeImg4 {
+  width: 50%;
+  height: 50%;
+}
+
+/* Maps */
+.blog-1 {
+  color: #2525c2;
+}
+
+.blog-2 {
+  color: #1f991f;
+}
+
+.blog-3 {
+  color: #ac7f2c;
+}
+
+.blog-4 {
+  color: red;
+}
+
+.blog-5 {
+  color: gray;
+}
+
+.blog-6 {
+  color: black;
+}
+
+.blog-7 {
+  color: #dddd28;
+}
+
+.blog-8 {
+  color: #b320b3;
+}
+/*# sourceMappingURL=main.css.map */

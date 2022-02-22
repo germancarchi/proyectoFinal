@@ -1,0 +1,53 @@
+/*  Body solo para la pagina de servicios   */
+
+.title1Movement {
+    animation-name: title1;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+}
+@keyframes title1 {
+    from {
+        transform: translate(1000px);
+    }
+    to {
+        transform: translate(0.1fr);
+    }
+}  
+
+.title2Movement {
+    animation-name: title2;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+}
+@keyframes title2 {
+    from {
+        transform: translate(-700px);
+    }
+    to {
+        transform: translate(1fr);
+    }
+} 
+
+@import "./variables";
+
+.body1 {
+    img {
+        border-radius: 15px;
+    }
+    div {
+        section{
+            background-color: $mainColor;
+            border-radius: 15px;     
+        }
+    }
+}
+.bodyServ {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size:small;               
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
